@@ -1,0 +1,64 @@
+ul > li {
+    color: red;
+}
+
+#myBar {
+    background-color: #4CAF50;
+    width: 10px;
+    height: 30px;
+    position: absolute;
+}
+
+button {
+    margin-top: 30px;
+}
+
+.Flex-box {
+    display: flex;
+    justify-content: space-around;
+    width: 50vw;
+    margin: 30px;
+}
+
+img {
+    /* width: 100px;
+    height: 100px; */
+    /* position: absolute;
+    top: 20px;
+    left: 50px; */
+}
+
+.pos-relative {
+    position: relative;
+}
+
+footer {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    width: 350px;
+    background: paleturquoise;
+}
+
+.Float-box {
+    display: float;
+}
+
+header{
+    color: red;
+    font-size: 2em;
+}
+
+@media screen and (max-width: 480px) {
+    body {
+      background-color: lightgreen;
+      font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 780px) {
+    body {
+      background-color: lightgrey;
+      font-size: 13px;
+    }
+}
